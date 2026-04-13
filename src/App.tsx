@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { AboutMethod } from './components/AboutMethod';
+import { AboutSite } from './components/AboutSite';
 import { BeyondMarkets } from './components/BeyondMarkets';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
@@ -33,7 +33,7 @@ function App() {
 
       <main>
         <Hero content={content.hero} />
-        <MarketLens content={content.marketLens} />
+        <AboutSite content={content.about} />
         <SourceLibrary
           content={content.marketSources}
           locale={locale}
@@ -48,7 +48,7 @@ function App() {
           actionLabel={content.sourceAction}
           sources={broaderSources}
         />
-        <AboutMethod content={content.about} />
+        <MarketLens content={content.marketLens} />
       </main>
 
       <Footer content={content.footer} />

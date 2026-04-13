@@ -417,6 +417,12 @@ main,
   font-size: 1.06rem;
 }
 
+.lens-method-detail {
+  margin-top: 2.8rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
 .source-columns {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

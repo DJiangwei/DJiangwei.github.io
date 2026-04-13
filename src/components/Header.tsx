@@ -27,8 +27,8 @@ export function Header({
         </a>
 
         <nav className="header-nav" aria-label="Primary">
-          <a className="nav-link" href="#market-lens">
-            {nav.marketLens}
+          <a className="nav-link" href="#about">
+            {nav.about}
           </a>
           <a className="nav-link" href="#market-sources">
             {nav.marketSources}
@@ -48,4 +48,3 @@ export function Header({
     </header>
   );
 }
-

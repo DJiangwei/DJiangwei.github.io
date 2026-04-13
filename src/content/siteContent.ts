@@ -12,10 +12,10 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
     subtitle: 'Macro investor / cross-border notebook',
     languageToggleLabel: 'Switch site language',
     nav: {
-      marketLens: 'Lens & Framework',
+      about: 'About',
       marketSources: 'Sources',
       beyondMarkets: 'Beyond Markets',
-      method: 'Method',
+      method: 'Perspective & Method',
     },
     hero: {
       eyebrow: 'Macro notebook / bilingual research shelf',
@@ -28,10 +28,10 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
       cta: 'Explore the source library',
     },
     marketLens: {
-      kicker: 'Lens and framework',
-      title: 'What I watch, and how I keep the map coherent',
+      kicker: 'Perspective and method',
+      title: 'How I read markets, filter noise, and stay calibrated',
       intro:
-        'This is not a prediction machine. It is the operating map I return to when I need to decide what matters, what is noise, and where narrative is running ahead of balance-sheet reality.',
+        'This is the operating discipline behind the shelf above: what I watch first, how I compare signals, and how I try to keep conviction from outrunning context.',
       bullets: [
         'Policy, rates, and liquidity come before headlines.',
         'Cross-asset confirmation matters: bonds, FX, commodities, and equities should tell a coherent story.',
@@ -56,6 +56,17 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
       ],
       closing:
         'The aim is context before conviction, and synthesis before speed.',
+      paragraphs: [
+        'The best market work usually comes from comparing worlds that do not fully translate into each other. English sources are often stronger on global framing and market structure; Chinese sources are often closer to domestic policy language, industrial signals, and sentiment on the ground.',
+        'I try to use this section as a reminder that process matters more than volume. A cleaner filter usually beats a larger feed.',
+      ],
+      principlesTitle: 'Working rules',
+      principles: [
+        'Read primary material whenever possible.',
+        'Compare official language with market pricing.',
+        'Use history as a probability filter, not an analogy machine.',
+        'Update quickly on evidence and slowly on identity-level views.',
+      ],
     },
     marketSources: {
       kicker: 'Markets',
@@ -74,20 +85,19 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
         'History and politics do not predict prices directly, but they reshape the range of what a market can imagine.',
     },
     about: {
-      kicker: 'Method',
-      title: 'How I try to stay calibrated',
+      kicker: 'About',
+      title: 'Why this site exists',
       intro:
-        'A small process note, because filters matter more than feeds.',
+        'East Meridian is meant to be a public-facing notebook rather than a polished biography or a prediction service.',
       paragraphs: [
-        'I use this page as a living notebook instead of a full biography. The objective is to make the inputs legible: what I read, what I replay, and what repeatedly survives re-reading.',
-        'The best market work usually comes from comparing worlds that do not fully translate into each other. English sources are often stronger on global framing and market structure; Chinese sources are often closer to domestic policy language, industrial signals, and sentiment on the ground.',
+        'The original impulse was simple: to make the input side visible. Most people only see conclusions, but the real shape of a macro framework comes from what you repeatedly read, replay, compare, and discard.',
+        'I also wanted one place that honestly reflects how I consume information: across English and Chinese media, across markets and non-markets, and across both fast signals and slow context.',
       ],
-      principlesTitle: 'Working rules',
+      principlesTitle: 'What this site is for',
       principles: [
-        'Read primary material whenever possible.',
-        'Compare official language with market pricing.',
-        'Use history as a probability filter, not an analogy machine.',
-        'Update quickly on evidence and slowly on identity-level views.',
+        'To share the sources that repeatedly shape my market thinking.',
+        'To keep history, politics, and social economics close to market work rather than outside it.',
+        'To treat this site as an evolving notebook, not a finished doctrine.',
       ],
     },
     mediumLabels: {
@@ -120,10 +130,10 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
     subtitle: '宏观投资者 / 跨语境笔记',
     languageToggleLabel: '切换站点语言',
     nav: {
-      marketLens: '视角与框架',
+      about: '关于',
       marketSources: '信息源',
       beyondMarkets: '市场之外',
-      method: '方法',
+      method: '视角与方法',
     },
     hero: {
       eyebrow: '宏观笔记 / 中英双语信息书架',
@@ -136,10 +146,10 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
       cta: '查看信息源',
     },
     marketLens: {
-      kicker: '市场视角与核心框架',
-      title: '我盯什么，也如何让整张地图保持一致',
+      kicker: '视角与方法',
+      title: '我如何读市场、过滤噪音，并尽量保持校准',
       intro:
-        '这不是一个“预测机器”，而是我反复回到的一张操作地图。它帮助我判断什么真正重要，什么只是噪音，以及叙事何时已经跑在资产负债表现实之前。',
+        '这里放的是这套书架背后的工作纪律：我先盯什么，如何交叉验证信号，以及如何避免让观点跑在上下文之前。',
       bullets: [
         '先看政策、利率与流动性，再看新闻标题。',
         '跨资产的相互验证很重要: 债券、外汇、大宗商品和股票应该能拼成同一个故事。',
@@ -163,6 +173,17 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
         },
       ],
       closing: '我的目标不是先有观点，而是先建立上下文，再形成判断。',
+      paragraphs: [
+        '很多真正有价值的宏观工作，来自比较那些彼此并不能完全翻译的世界。英文来源通常更强于全球框架和市场结构，中文来源通常更接近政策语言、产业信号和本土情绪。',
+        '我也想用这一部分提醒自己，真正重要的往往不是订阅更多，而是把过滤器打磨得更清楚。',
+      ],
+      principlesTitle: '工作规则',
+      principles: [
+        '尽量直接阅读一手材料。',
+        '把官方语言和市场定价放在一起看。',
+        '把历史当作概率过滤器，而不是类比机器。',
+        '对新证据快速更新，对身份化观点缓慢承诺。',
+      ],
     },
     marketSources: {
       kicker: '市场',
@@ -181,19 +202,18 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
         '历史和政治不会直接给出价格答案，但它们会改变市场能够想象的边界。',
     },
     about: {
-      kicker: '方法',
-      title: '我如何尽量保持校准',
-      intro: '简单说一下过程，因为过滤器往往比信息流本身更重要。',
+      kicker: '关于',
+      title: '这个网站为什么存在',
+      intro: '东望子午更像一份公开的工作笔记，而不是一份完整履历，也不是一个“给答案”的站点。',
       paragraphs: [
-        '我更愿意把这个页面做成一份持续生长的工作笔记，而不是完整的个人履历。重点不是展示身份，而是把输入端变得清晰: 我读什么、反复听什么、哪些材料值得重读。',
-        '很多真正有价值的宏观工作，来自比较那些彼此并不能完全翻译的世界。英文来源通常更强于全球框架和市场结构，中文来源通常更接近政策语言、产业信号和本土情绪。',
+        '我一开始想做它，是因为真正塑造宏观框架的，往往不是最后一句观点，而是长期反复阅读、收听、比较和淘汰之后留下来的输入结构。',
+        '我也希望这里能诚实地反映我的信息世界: 它同时来自中文和英文，同时来自市场与非市场，也同时来自快信号与慢背景。',
       ],
-      principlesTitle: '工作规则',
+      principlesTitle: '我想让它承担的作用',
       principles: [
-        '尽量直接阅读一手材料。',
-        '把官方语言和市场定价放在一起看。',
-        '把历史当作概率过滤器，而不是类比机器。',
-        '对新证据快速更新，对身份化观点缓慢承诺。',
+        '分享那些持续塑造我市场判断的信息源。',
+        '把历史、政治和社会经济留在市场工作内部，而不是放到外面。',
+        '把它当成一份会持续变化的笔记，而不是已经定型的结论。',
       ],
     },
     mediumLabels: {

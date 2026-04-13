@@ -39,6 +39,9 @@ export interface MarketLensContent extends SectionIntro {
   frameworkTitle: string;
   framework: HeroMetaItem[];
   closing: string;
+  paragraphs: string[];
+  principlesTitle: string;
+  principles: string[];
 }
 
 export interface SourceSectionContent extends SectionIntro {
@@ -66,7 +69,7 @@ export interface SiteLocaleContent {
   subtitle: string;
   languageToggleLabel: string;
   nav: {
-    marketLens: string;
+    about: string;
     marketSources: string;
     beyondMarkets: string;
     method: string;
