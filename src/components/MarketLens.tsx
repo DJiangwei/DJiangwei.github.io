@@ -25,11 +25,22 @@ export function MarketLens({ content }: MarketLensProps) {
           ))}
         </ol>
 
-        <div className="lens-closing">
-          <p>{content.closing}</p>
+        <div className="lens-side">
+          <div className="framework-panel">
+            <p className="principles-title">{content.frameworkTitle}</p>
+            {content.framework.map((item) => (
+              <div className="meta-block" key={item.label}>
+                <p className="meta-label">{item.label}</p>
+                <p className="meta-value">{item.value}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="lens-closing">
+            <p>{content.closing}</p>
+          </div>
         </div>
       </div>
     </RevealSection>
   );
 }
-

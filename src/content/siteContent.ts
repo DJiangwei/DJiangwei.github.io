@@ -8,27 +8,41 @@ import type {
 
 export const siteContent: Record<Locale, SiteLocaleContent> = {
   en: {
-    brand: 'North Meridian',
+    brand: 'East Meridian',
     subtitle: 'Macro investor / cross-border notebook',
     languageToggleLabel: 'Switch site language',
     nav: {
-      marketLens: 'Market Lens',
+      marketLens: 'Lens & Framework',
       marketSources: 'Sources',
       beyondMarkets: 'Beyond Markets',
       method: 'Method',
     },
     hero: {
       eyebrow: 'Macro notebook / bilingual research shelf',
-      title: 'North Meridian',
+      title: 'East Meridian',
       role: 'A pseudonymous macro investor reading both sides of the world.',
       summary:
         'I track rates, liquidity, commodities, policy, and the stories markets tell themselves. This page is a small public notebook for the material that sharpens my framework across English and Chinese information streams.',
       secondary:
         'From central bank speeches and market plumbing to history, politics, and social economics, the edge is usually in context rather than speed.',
       cta: 'Explore the source library',
-      meta: [
+    },
+    marketLens: {
+      kicker: 'Lens and framework',
+      title: 'What I watch, and how I keep the map coherent',
+      intro:
+        'This is not a prediction machine. It is the operating map I return to when I need to decide what matters, what is noise, and where narrative is running ahead of balance-sheet reality.',
+      bullets: [
+        'Policy, rates, and liquidity come before headlines.',
+        'Cross-asset confirmation matters: bonds, FX, commodities, and equities should tell a coherent story.',
+        'China is not a side note. It is part of the transmission mechanism for global macro.',
+        'Narratives are useful only after price, positioning, and institutional incentives are clear.',
+        'Reading in both English and Chinese helps catch what each information world omits.',
+      ],
+      frameworkTitle: 'Core framework',
+      framework: [
         {
-          label: 'Core lens',
+          label: 'Focus variables',
           value: 'Rates, liquidity, China, commodities',
         },
         {
@@ -40,21 +54,8 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
           value: 'Primary sources first, commentary second',
         },
       ],
-    },
-    marketLens: {
-      kicker: 'Market lens',
-      title: 'What I keep on the screen',
-      intro:
-        'This is not a prediction machine. It is an orientation map for figuring out what matters, what is noise, and where the market narrative is running ahead of balance-sheet reality.',
-      bullets: [
-        'Policy, rates, and liquidity come before headlines.',
-        'Cross-asset confirmation matters: bonds, FX, commodities, and equities should tell a coherent story.',
-        'China is not a side note. It is part of the transmission mechanism for global macro.',
-        'Narratives are useful only after price, positioning, and institutional incentives are clear.',
-        'Reading in both English and Chinese helps catch what each information world omits.',
-      ],
       closing:
-        'The goal is context before conviction, and synthesis before opinion.',
+        'The aim is context before conviction, and synthesis before speed.',
     },
     marketSources: {
       kicker: 'Markets',
@@ -101,7 +102,7 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
       links: [
         {
           label: 'Email',
-          href: 'mailto:hello@northmeridian.example',
+          href: 'mailto:hello@eastmeridian.example',
         },
         {
           label: 'GitHub',
@@ -115,27 +116,41 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
     },
   },
   zh: {
-    brand: 'North Meridian',
+    brand: '东望子午',
     subtitle: '宏观投资者 / 跨语境笔记',
     languageToggleLabel: '切换站点语言',
     nav: {
-      marketLens: '市场视角',
+      marketLens: '视角与框架',
       marketSources: '信息源',
       beyondMarkets: '市场之外',
       method: '方法',
     },
     hero: {
       eyebrow: '宏观笔记 / 中英双语信息书架',
-      title: 'North Meridian',
+      title: '东望子午',
       role: '一个同时浸泡在中英文信息世界里的匿名宏观投资者。',
       summary:
         '我关注利率、流动性、大宗商品、政策以及市场如何讲述自己的故事。这个页面是一份公开的小型工作台，记录那些持续塑造我框架的阅读、收听与观看来源。',
       secondary:
         '从央行讲话、金融体系管道到历史、政治与社会经济，真正的优势通常来自语境与比较，而不是抢速度。',
       cta: '查看信息源',
-      meta: [
+    },
+    marketLens: {
+      kicker: '市场视角与核心框架',
+      title: '我盯什么，也如何让整张地图保持一致',
+      intro:
+        '这不是一个“预测机器”，而是我反复回到的一张操作地图。它帮助我判断什么真正重要，什么只是噪音，以及叙事何时已经跑在资产负债表现实之前。',
+      bullets: [
+        '先看政策、利率与流动性，再看新闻标题。',
+        '跨资产的相互验证很重要: 债券、外汇、大宗商品和股票应该能拼成同一个故事。',
+        '中国不是旁枝信息，而是全球宏观传导链条中的核心变量之一。',
+        '叙事有用，但必须建立在价格、仓位和制度激励都看清之后。',
+        '同时阅读中文和英文来源，有助于发现每个信息世界天然忽略的部分。',
+      ],
+      frameworkTitle: '核心框架',
+      framework: [
         {
-          label: '核心框架',
+          label: '重点变量',
           value: '利率、流动性、中国与大宗商品',
         },
         {
@@ -146,19 +161,6 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
           label: '校准方式',
           value: '先看一手材料，再看评论表达',
         },
-      ],
-    },
-    marketLens: {
-      kicker: '市场视角',
-      title: '我长期盯着什么',
-      intro:
-        '这不是一个“预测机器”，而是一张定向地图。它帮助我判断什么真正重要，什么只是噪音，以及市场叙事何时已经跑在资产负债表现实之前。',
-      bullets: [
-        '先看政策、利率与流动性，再看新闻标题。',
-        '跨资产的相互验证很重要: 债券、外汇、大宗商品和股票应该能拼成同一个故事。',
-        '中国不是旁枝信息，而是全球宏观传导链条中的核心变量之一。',
-        '叙事有用，但必须建立在价格、仓位和制度激励都看清之后。',
-        '同时阅读中文和英文来源，有助于发现每个信息世界天然忽略的部分。',
       ],
       closing: '我的目标不是先有观点，而是先建立上下文，再形成判断。',
     },
@@ -205,7 +207,7 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
       links: [
         {
           label: '邮件',
-          href: 'mailto:hello@northmeridian.example',
+          href: 'mailto:hello@eastmeridian.example',
         },
         {
           label: 'GitHub',
@@ -466,4 +468,3 @@ export function getSourcesByDomain(domain: SourceDomain): Record<SourceMedium, S
     watch: sourceItems.filter((item) => item.domain === domain && item.medium === 'watch'),
   };
 }
-

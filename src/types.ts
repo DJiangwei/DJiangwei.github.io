@@ -26,7 +26,6 @@ export interface HeroContent {
   summary: string;
   secondary: string;
   cta: string;
-  meta: HeroMetaItem[];
 }
 
 export interface SectionIntro {
@@ -37,6 +36,8 @@ export interface SectionIntro {
 
 export interface MarketLensContent extends SectionIntro {
   bullets: string[];
+  frameworkTitle: string;
+  framework: HeroMetaItem[];
   closing: string;
 }
 
@@ -79,4 +80,3 @@ export interface SiteLocaleContent {
   sourceAction: string;
   footer: FooterContent;
 }
-

@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     document.title =
-      locale === 'zh' ? 'North Meridian | 宏观笔记' : 'North Meridian | Macro Notebook';
+      locale === 'zh' ? '东望子午 | 宏观笔记' : 'East Meridian | Macro Notebook';
   }, [locale]);
 
   return (
@@ -57,4 +57,3 @@ function App() {
 }
 
 export default App;
-

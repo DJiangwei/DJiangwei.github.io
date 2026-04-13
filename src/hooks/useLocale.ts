@@ -1,7 +1,8 @@
 import { startTransition, useEffect, useState } from 'react';
 import type { Locale } from '../types';
 
-const STORAGE_KEY = 'north-meridian-locale';
+const STORAGE_KEY = 'east-meridian-locale';
+const LEGACY_STORAGE_KEY = 'north-meridian-locale';
 
 function isLocale(value: string | null): value is Locale {
   return value === 'en' || value === 'zh';
@@ -26,6 +27,11 @@ function getInitialLocale(): Locale {
     if (isLocale(storedLocale)) {
       return storedLocale;
     }
+
+    const legacyLocale = window.localStorage.getItem(LEGACY_STORAGE_KEY);
+    if (isLocale(legacyLocale)) {
+      return legacyLocale;
+    }
   } catch {
     return detectBrowserLocale();
   }
@@ -39,6 +45,7 @@ export function useLocale() {
   useEffect(() => {
     try {
       window.localStorage.setItem(STORAGE_KEY, locale);
+      window.localStorage.removeItem(LEGACY_STORAGE_KEY);
     } catch {
       return;
     }
@@ -56,4 +63,3 @@ export function useLocale() {
 
   return { locale, setLocale };
 }
-

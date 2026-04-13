@@ -1,4 +1,4 @@
-# North Meridian
+# East Meridian
 
 A bilingual personal page for a macro trader / investor who reads across English and Chinese information worlds.
 

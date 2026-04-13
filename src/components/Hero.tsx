@@ -18,17 +18,7 @@ export function Hero({ content }: HeroProps) {
             {content.cta}
           </a>
         </div>
-
-        <div className="hero-aside hero-line hero-line-5">
-          {content.meta.map((item) => (
-            <div className="meta-block" key={item.label}>
-              <p className="meta-label">{item.label}</p>
-              <p className="meta-value">{item.value}</p>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
 }
-
