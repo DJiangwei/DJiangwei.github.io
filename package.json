@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "vite --open /app.html",
+    "build": "tsc && vite build && node scripts/finalize-build.mjs && node scripts/sync-pages-root.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -20,4 +20,3 @@
     "vite": "^5.2.13"
   }
 }
-
