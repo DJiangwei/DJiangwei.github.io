@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite --open /app.html",
     "build": "tsc && vite build && node scripts/finalize-build.mjs && node scripts/sync-pages-root.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "source:add": "node scripts/add-source.mjs",
+    "sources:sync": "node scripts/sync-sources.mjs",
+    "sources:summarize": "node scripts/summarize-sources.mjs",
+    "sources:refresh": "node scripts/sync-sources.mjs && node scripts/summarize-sources.mjs"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -1,5 +1,26 @@
 [
   {
+    "id": "federal-reserve-press",
+    "title": "Federal Reserve Press Releases",
+    "language": "en",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+    "note": {
+      "en": "A core policy feed for keeping official Fed language close to the market tape.",
+      "zh": "这是追踪美联储官方措辞的核心来源，适合把政策语言和市场反应放在一起看。"
+    },
+    "medium": "read",
+    "domain": "markets",
+    "tag": "Policy",
+    "priority": "core",
+    "active": true,
+    "strategy": "rss",
+    "feedUrl": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "summaryMode": "bilingual",
+    "maxItems": 5,
+    "regionTags": ["US", "Global"],
+    "topicTags": ["rates", "policy", "liquidity"]
+  },
+  {
     "id": "financial-times",
     "title": "Financial Times",
     "language": "en",
@@ -11,8 +32,14 @@
     "medium": "read",
     "domain": "markets",
     "tag": "Macro",
+    "priority": "watchlist",
+    "active": false,
     "strategy": "rss",
-    "feedUrl": "https://www.ft.com/rss/home"
+    "feedUrl": "https://www.ft.com/rss/home",
+    "summaryMode": "bilingual",
+    "maxItems": 5,
+    "regionTags": ["Global"],
+    "topicTags": ["macro", "rates", "policy"]
   },
   {
     "id": "caixin",
@@ -26,7 +53,13 @@
     "medium": "read",
     "domain": "markets",
     "tag": "China",
-    "strategy": "rss"
+    "priority": "core",
+    "active": false,
+    "strategy": "rss",
+    "summaryMode": "bilingual",
+    "maxItems": 5,
+    "regionTags": ["China"],
+    "topicTags": ["china", "credit", "policy"]
   },
   {
     "id": "odd-lots",
@@ -40,8 +73,14 @@
     "medium": "listen",
     "domain": "markets",
     "tag": "Podcast",
+    "priority": "watchlist",
+    "active": false,
     "strategy": "podcast",
-    "feedUrl": "https://feeds.megaphone.fm/BLM7902482991"
+    "feedUrl": "https://feeds.megaphone.fm/BLM7902482991",
+    "summaryMode": "bilingual",
+    "maxItems": 5,
+    "regionTags": ["US", "Global"],
+    "topicTags": ["markets", "interview", "macro"]
   },
   {
     "id": "dw-documentary",
@@ -55,7 +94,13 @@
     "medium": "watch",
     "domain": "beyondMarkets",
     "tag": "Documentary",
+    "priority": "watchlist",
+    "active": false,
     "strategy": "youtube",
-    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCW39zufHfsuGgpLviKh297Q"
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCW39zufHfsuGgpLviKh297Q",
+    "summaryMode": "bilingual",
+    "maxItems": 5,
+    "regionTags": ["Global"],
+    "topicTags": ["history", "documentary", "geopolitics"]
   }
 ]

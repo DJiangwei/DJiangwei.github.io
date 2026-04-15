@@ -39,6 +39,7 @@ function App() {
           locale={locale}
           mediumLabels={content.mediumLabels}
           actionLabel={content.sourceAction}
+          trackingLabels={content.trackingLabels}
           sources={marketSources}
         />
         <BeyondMarkets
@@ -46,6 +47,7 @@ function App() {
           locale={locale}
           mediumLabels={content.mediumLabels}
           actionLabel={content.sourceAction}
+          trackingLabels={content.trackingLabels}
           sources={broaderSources}
         />
         <MarketLens content={content.marketLens} />

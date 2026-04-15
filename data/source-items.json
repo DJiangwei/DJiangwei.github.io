@@ -1,0 +1,52 @@
+[
+  {
+    "sourceId": "federal-reserve-press",
+    "itemId": "5472ba5f01467854",
+    "title": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
+    "publishedAt": "2026-04-14T18:00:00.000Z",
+    "rawSummary": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+    "contentHash": "c2adbecf78befb18fc08c2848d9154d10637a480c43921bd890eedf2351e3a2f",
+    "sourcePriority": "core"
+  },
+  {
+    "sourceId": "federal-reserve-press",
+    "itemId": "96edf18e0fdae60c",
+    "title": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260410a.htm",
+    "publishedAt": "2026-04-10T20:15:00.000Z",
+    "rawSummary": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.",
+    "contentHash": "bc43f0e48a357b5e3275b9ba194a757baa85b9a90a28584e7a534e5ba6ef542d",
+    "sourcePriority": "core"
+  },
+  {
+    "sourceId": "federal-reserve-press",
+    "itemId": "4a7aa757aa434aa5",
+    "title": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
+    "publishedAt": "2026-04-09T15:00:00.000Z",
+    "rawSummary": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+    "contentHash": "c540b7c4e04d9ed6d933ef72eebccdc0c3e12a182d1f0ffab16ddd2533c15ce7",
+    "sourcePriority": "core"
+  },
+  {
+    "sourceId": "federal-reserve-press",
+    "itemId": "cc1504450007b439",
+    "title": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
+    "publishedAt": "2026-04-08T18:00:00.000Z",
+    "rawSummary": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
+    "contentHash": "405a22fed82299ec058f704cbf81d2c0a3e65402972057534cbd47261ae98901",
+    "sourcePriority": "core"
+  },
+  {
+    "sourceId": "federal-reserve-press",
+    "itemId": "394ac7db644d6aa2",
+    "title": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260408a.htm",
+    "publishedAt": "2026-04-08T15:30:00.000Z",
+    "rawSummary": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
+    "contentHash": "cc63c3c4874066d3d38669684d881b00e6e1ad9431d464f29976c6a0e917c808",
+    "sourcePriority": "core"
+  }
+]

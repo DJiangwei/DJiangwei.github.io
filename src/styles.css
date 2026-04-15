@@ -511,6 +511,42 @@ main,
   border-color: currentColor;
 }
 
+.tracked-update {
+  display: grid;
+  gap: 0.5rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--line);
+}
+
+.tracked-label,
+.tracked-meta,
+.tracked-signal,
+.tracked-why-label {
+  color: var(--muted);
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tracked-title {
+  width: fit-content;
+  font-family: var(--font-display);
+  font-size: 1.04rem;
+  line-height: 1.35;
+  transition: color 180ms ease;
+}
+
+.tracked-title:hover {
+  color: var(--accent);
+}
+
+.tracked-summary,
+.tracked-why {
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.72;
+}
+
 .about-copy {
   display: grid;
   gap: 1.2rem;

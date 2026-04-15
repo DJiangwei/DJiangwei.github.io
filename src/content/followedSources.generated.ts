@@ -2,55 +2,36 @@ import type { SourceItem } from '../types';
 
 export const followedSources: SourceItem[] = [
   {
-    "id": "financial-times",
-    "title": "Financial Times",
+    "id": "federal-reserve-press",
+    "title": "Federal Reserve Press Releases",
     "language": "en",
-    "url": "https://www.ft.com/",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
     "note": {
-      "en": "Replace this with why you actually follow this source.",
-      "zh": "把这里替换成你为什么长期跟踪这个来源。"
+      "en": "A core policy feed for keeping official Fed language close to the market tape.",
+      "zh": "这是追踪美联储官方措辞的核心来源，适合把政策语言和市场反应放在一起看。"
     },
     "medium": "read",
     "domain": "markets",
-    "tag": "Macro"
-  },
-  {
-    "id": "caixin",
-    "title": "财新",
-    "language": "zh",
-    "url": "https://www.caixin.com/",
-    "note": {
-      "en": "Replace this with your real note for Caixin.",
-      "zh": "把这里替换成你对财新的真实说明。"
-    },
-    "medium": "read",
-    "domain": "markets",
-    "tag": "China"
-  },
-  {
-    "id": "odd-lots",
-    "title": "Odd Lots",
-    "language": "en",
-    "url": "https://www.bloomberg.com/oddlots-podcast",
-    "note": {
-      "en": "Replace this with why this podcast matters to your process.",
-      "zh": "把这里替换成这个播客为什么对你的研究流程重要。"
-    },
-    "medium": "listen",
-    "domain": "markets",
-    "tag": "Podcast"
-  },
-  {
-    "id": "dw-documentary",
-    "title": "DW Documentary",
-    "language": "en",
-    "url": "https://www.youtube.com/@DWDocumentary",
-    "note": {
-      "en": "Replace this with your real note for non-market documentary viewing.",
-      "zh": "把这里替换成你对市场之外纪录片来源的真实说明。"
-    },
-    "medium": "watch",
-    "domain": "beyondMarkets",
-    "tag": "Documentary"
+    "tag": "Policy",
+    "priority": "core",
+    "active": true,
+    "strategy": "rss",
+    "feedUrl": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "summaryMode": "bilingual",
+    "maxItems": 5,
+    "regionTags": [
+      "US",
+      "Global"
+    ],
+    "topicTags": [
+      "rates",
+      "policy",
+      "liquidity"
+    ],
+    "latestItemTitle": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
+    "latestPublishedAt": "2026-04-14T18:00:00.000Z",
+    "latestItemRawSummary": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+    "trackedItemCount": 5
   }
 ];

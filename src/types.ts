@@ -2,6 +2,17 @@ export type Locale = 'en' | 'zh';
 export type SourceMedium = 'read' | 'listen' | 'watch';
 export type SourceDomain = 'markets' | 'beyondMarkets';
 export type SourceLanguage = 'en' | 'zh';
+export type SourcePriority = 'core' | 'watchlist' | 'manual';
+export type SummaryMode = 'bilingual' | 'en-only' | 'zh-only';
+export type FeedStrategy = 'auto' | 'rss' | 'atom' | 'podcast' | 'youtube';
+export type SourceSignalType =
+  | 'data'
+  | 'news'
+  | 'opinion'
+  | 'interview'
+  | 'institutional'
+  | 'historical'
+  | 'documentary';
 
 export interface SourceItem {
   id: string;
@@ -12,6 +23,23 @@ export interface SourceItem {
   medium: SourceMedium;
   domain: SourceDomain;
   tag?: string;
+  priority?: SourcePriority;
+  active?: boolean;
+  strategy?: FeedStrategy;
+  feedUrl?: string;
+  summaryMode?: SummaryMode;
+  maxItems?: number;
+  regionTags?: string[];
+  topicTags?: string[];
+  latestItemTitle?: string;
+  latestItemUrl?: string;
+  latestPublishedAt?: string;
+  latestItemSummary?: Record<Locale, string>;
+  latestWhyItMatters?: Record<Locale, string>;
+  latestItemRawSummary?: string;
+  latestSignalType?: SourceSignalType;
+  latestKeywords?: string[];
+  trackedItemCount?: number;
 }
 
 export interface HeroMetaItem {
@@ -48,6 +76,14 @@ export interface SourceSectionContent extends SectionIntro {
   quote: string;
 }
 
+export interface TrackingLabels {
+  latestUpdate: string;
+  whyItMatters: string;
+  updated: string;
+  signalType: string;
+  priority: Record<SourcePriority, string>;
+}
+
 export interface AboutContent extends SectionIntro {
   paragraphs: string[];
   principlesTitle: string;
@@ -81,5 +117,22 @@ export interface SiteLocaleContent {
   about: AboutContent;
   mediumLabels: Record<SourceMedium, string>;
   sourceAction: string;
+  trackingLabels: TrackingLabels;
   footer: FooterContent;
+}
+
+export interface TrackedSourceItem {
+  sourceId: string;
+  itemId: string;
+  title: string;
+  url: string;
+  publishedAt?: string;
+  rawSummary?: string;
+  contentHash: string;
+  summary?: Record<Locale, string>;
+  whyItMatters?: Record<Locale, string>;
+  signalType?: SourceSignalType;
+  keywords?: string[];
+  summarizedAt?: string;
+  sourcePriority?: SourcePriority;
 }

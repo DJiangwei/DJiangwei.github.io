@@ -1,10 +1,13 @@
 import type {
+  FeedStrategy,
   Locale,
   SiteLocaleContent,
   SourceDomain,
   SourceItem,
   SourceMedium,
+  TrackedSourceItem,
 } from '../types';
+import { followedSources } from './followedSources.generated';
 
 export const siteContent: Record<Locale, SiteLocaleContent> = {
   en: {
@@ -106,6 +109,17 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
       watch: 'Watch',
     },
     sourceAction: 'Open source',
+    trackingLabels: {
+      latestUpdate: 'Latest tracked update',
+      whyItMatters: 'Why it matters',
+      updated: 'Updated',
+      signalType: 'Signal',
+      priority: {
+        core: 'Core',
+        watchlist: 'Watchlist',
+        manual: 'Manual',
+      },
+    },
     footer: {
       note:
         'Placeholder identity and contact links for now. The structure is final; the public details can be swapped later.',
@@ -222,6 +236,17 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
       watch: '看',
     },
     sourceAction: '打开来源',
+    trackingLabels: {
+      latestUpdate: '最新跟踪更新',
+      whyItMatters: '为什么重要',
+      updated: '更新于',
+      signalType: '信号类型',
+      priority: {
+        core: '核心',
+        watchlist: '观察',
+        manual: '手动',
+      },
+    },
     footer: {
       note: '身份与联系方式暂时使用占位内容，整体结构已经可以直接上线，细节之后替换即可。',
       links: [
@@ -481,10 +506,48 @@ export const sourceItems: SourceItem[] = [
   },
 ];
 
-export function getSourcesByDomain(domain: SourceDomain): Record<SourceMedium, SourceItem[]> {
+function mergeSource(base: SourceItem, tracked: SourceItem): SourceItem {
   return {
-    read: sourceItems.filter((item) => item.domain === domain && item.medium === 'read'),
-    listen: sourceItems.filter((item) => item.domain === domain && item.medium === 'listen'),
-    watch: sourceItems.filter((item) => item.domain === domain && item.medium === 'watch'),
+    ...base,
+    ...tracked,
+    note: tracked.note ?? base.note,
+    regionTags: tracked.regionTags ?? base.regionTags,
+    topicTags: tracked.topicTags ?? base.topicTags,
   };
 }
+
+function getMergedSourceItems(): SourceItem[] {
+  const baseMap = new Map(sourceItems.map((item) => [item.id, item]));
+  const merged: SourceItem[] = sourceItems.map((item) => {
+    const tracked = followedSources.find((candidate) => candidate.id === item.id);
+    return tracked ? mergeSource(item, tracked) : item;
+  });
+
+  for (const tracked of followedSources) {
+    if (!baseMap.has(tracked.id)) {
+      merged.push(tracked);
+    }
+  }
+
+  return merged;
+}
+
+export function getSourcesByDomain(domain: SourceDomain): Record<SourceMedium, SourceItem[]> {
+  const mergedItems = getMergedSourceItems();
+
+  return {
+    read: mergedItems.filter((item) => item.domain === domain && item.medium === 'read'),
+    listen: mergedItems.filter((item) => item.domain === domain && item.medium === 'listen'),
+    watch: mergedItems.filter((item) => item.domain === domain && item.medium === 'watch'),
+  };
+}
+
+export const supportedFeedStrategies: FeedStrategy[] = [
+  'auto',
+  'rss',
+  'atom',
+  'podcast',
+  'youtube',
+];
+
+export const emptyTrackedItems: TrackedSourceItem[] = [];

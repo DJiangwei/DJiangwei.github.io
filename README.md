@@ -12,6 +12,35 @@ npm run dev
 Source entry HTML for Vite development lives in `app.html`.
 The repository root `index.html` is kept as the built Pages artifact because this user site is currently published directly from the branch root.
 
+## Source tracking workflow
+
+Tracked sources live in [data/followed-sources.json](/Users/jiangwei/Personal%20Page/data/followed-sources.json).
+
+Useful commands:
+
+```bash
+npm run source:add
+npm run sources:sync
+OPENAI_API_KEY=your_key npm run sources:summarize
+npm run sources:refresh
+```
+
+What each command does:
+
+- `source:add`: interactive CLI for adding a new tracked source
+- `sources:sync`: fetches the latest feed items and writes `data/source-items.json`
+- `sources:summarize`: summarizes new tracked items with the OpenAI Responses API
+- `sources:refresh`: runs sync + summarize together
+
+Generated outputs:
+
+- `data/source-items.json`: recent tracked feed items
+- `data/latest-digest.json`: machine-readable digest
+- `data/latest-digest.md`: human-readable digest for quick review
+- `src/content/followedSources.generated.ts`: site snapshot used by the frontend
+
+For GitHub automation, add an `OPENAI_API_KEY` repository secret. The scheduled workflow in `.github/workflows/source-tracking.yml` refreshes tracked sources every 6 hours and commits changes back to `main`.
+
 ## GitHub Pages
 
 - If this code lives in a repository named `DJiangwei.github.io`, the site will build for the root URL: `https://djiangwei.github.io/`
