@@ -1,6 +1,16 @@
 [
   {
     "sourceId": "federal-reserve-press",
+    "itemId": "25faa3ae814816a9",
+    "title": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260416a.htm",
+    "publishedAt": "2026-04-16T15:00:00.000Z",
+    "rawSummary": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
+    "contentHash": "dd5b27b509a5e61ec1676dc78d8d2d72da9c1a54231b52ca09ff9185319670a4",
+    "sourcePriority": "core"
+  },
+  {
+    "sourceId": "federal-reserve-press",
     "itemId": "5472ba5f01467854",
     "title": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
@@ -37,16 +47,6 @@
     "publishedAt": "2026-04-08T18:00:00.000Z",
     "rawSummary": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
     "contentHash": "405a22fed82299ec058f704cbf81d2c0a3e65402972057534cbd47261ae98901",
-    "sourcePriority": "core"
-  },
-  {
-    "sourceId": "federal-reserve-press",
-    "itemId": "394ac7db644d6aa2",
-    "title": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260408a.htm",
-    "publishedAt": "2026-04-08T15:30:00.000Z",
-    "rawSummary": "Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service",
-    "contentHash": "cc63c3c4874066d3d38669684d881b00e6e1ad9431d464f29976c6a0e917c808",
     "sourcePriority": "core"
   }
 ]

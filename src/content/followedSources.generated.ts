@@ -28,10 +28,10 @@ export const followedSources: SourceItem[] = [
       "policy",
       "liquidity"
     ],
-    "latestItemTitle": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
-    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
-    "latestPublishedAt": "2026-04-14T18:00:00.000Z",
-    "latestItemRawSummary": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+    "latestItemTitle": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
+    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260416a.htm",
+    "latestPublishedAt": "2026-04-16T15:00:00.000Z",
+    "latestItemRawSummary": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
     "trackedItemCount": 5
   }
 ];

@@ -1,8 +1,13 @@
 # East Meridian Source Digest
 
-Generated: 2026-04-16T13:28:12.500Z
+Generated: 2026-04-16T19:11:34.948Z
 
 ## Core
+
+### Federal Reserve Press Releases
+[Federal Reserve Board issues enforcement action with Community Bankshares, Inc.](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260416a.htm)
+Published: 2026-04-16T15:00:00.000Z
+Summary: Federal Reserve Board issues enforcement action with Community Bankshares, Inc.
 
 ### Federal Reserve Press Releases
 [Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm)
@@ -23,9 +28,4 @@ Summary: Federal Reserve Board announces termination of enforcement actions with
 [Minutes of the Federal Open Market Committee, March 17–18, 2026](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm)
 Published: 2026-04-08T18:00:00.000Z
 Summary: Minutes of the Federal Open Market Committee, March 17–18, 2026
-
-### Federal Reserve Press Releases
-[Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service](https://www.federalreserve.gov/newsevents/pressreleases/other20260408a.htm)
-Published: 2026-04-08T15:30:00.000Z
-Summary: Federal Reserve Board invites public comment on proposal that would allow U.S. banks and credit unions to use intermediaries to transfer funds through the FedNow Service
 
