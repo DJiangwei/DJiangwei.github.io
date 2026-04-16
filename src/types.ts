@@ -2,6 +2,7 @@ export type Locale = 'en' | 'zh';
 export type SourceMedium = 'read' | 'listen' | 'watch';
 export type SourceDomain = 'markets' | 'beyondMarkets';
 export type SourceLanguage = 'en' | 'zh';
+export type ArticleStatus = 'draft' | 'review' | 'published';
 export type SourcePriority = 'core' | 'watchlist' | 'manual';
 export type SummaryMode = 'bilingual' | 'en-only' | 'zh-only';
 export type FeedStrategy = 'auto' | 'rss' | 'atom' | 'podcast' | 'youtube';
@@ -76,6 +77,25 @@ export interface SourceSectionContent extends SectionIntro {
   quote: string;
 }
 
+export interface WritingSectionContent extends SectionIntro {
+  featuredLabel: string;
+  recentLabel: string;
+  emptyState: string;
+}
+
+export interface ArticleLabels {
+  readArticle: string;
+  backToWriting: string;
+  published: string;
+  updated: string;
+  readingTime: string;
+  minute: string;
+  translation: string;
+  notFoundTitle: string;
+  notFoundBody: string;
+  returnHome: string;
+}
+
 export interface TrackingLabels {
   latestUpdate: string;
   whyItMatters: string;
@@ -106,12 +126,15 @@ export interface SiteLocaleContent {
   languageToggleLabel: string;
   nav: {
     about: string;
+    writing: string;
     marketSources: string;
     beyondMarkets: string;
     method: string;
   };
   hero: HeroContent;
   marketLens: MarketLensContent;
+  writing: WritingSectionContent;
+  articleLabels: ArticleLabels;
   marketSources: SourceSectionContent;
   beyondMarkets: SourceSectionContent;
   about: AboutContent;
@@ -135,4 +158,25 @@ export interface TrackedSourceItem {
   keywords?: string[];
   summarizedAt?: string;
   sourcePriority?: SourcePriority;
+}
+
+export interface ArticleItem {
+  id: string;
+  title: string;
+  slug: string;
+  locale: Locale;
+  translationKey: string;
+  status: ArticleStatus;
+  publishedAt?: string;
+  updatedAt?: string;
+  summary: string;
+  excerpt: string;
+  tags: string[];
+  featured: boolean;
+  filePath: string;
+  markdown: string;
+  html: string;
+  path: string;
+  readingTimeMinutes: number;
+  wordCount: number;
 }

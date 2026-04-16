@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --open /app.html",
-    "build": "tsc && vite build && node scripts/finalize-build.mjs && node scripts/sync-pages-root.mjs",
+    "dev": "node scripts/build-posts.mjs && vite --open /app.html",
+    "build": "node scripts/build-posts.mjs && tsc && vite build && node scripts/finalize-build.mjs && node scripts/sync-pages-root.mjs",
     "preview": "vite preview",
+    "post:new": "node scripts/new-post.mjs",
+    "posts:build": "node scripts/build-posts.mjs",
     "source:add": "node scripts/add-source.mjs",
     "sources:sync": "node scripts/sync-sources.mjs",
     "sources:summarize": "node scripts/summarize-sources.mjs",
@@ -20,6 +22,8 @@
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.3.1",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.13"
   }

@@ -16,6 +16,7 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
     languageToggleLabel: 'Switch site language',
     nav: {
       about: 'About',
+      writing: 'Writing',
       marketSources: 'Sources',
       beyondMarkets: 'Beyond Markets',
       method: 'Perspective & Method',
@@ -28,7 +29,7 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
         'I track rates, liquidity, commodities, policy, and the stories markets tell themselves. This page is a small public notebook for the material that sharpens my framework across English and Chinese information streams.',
       secondary:
         'From central bank speeches and market plumbing to history, politics, and social economics, the edge is usually in context rather than speed.',
-      cta: 'Explore the source library',
+      cta: 'Read the notebook',
     },
     marketLens: {
       kicker: 'Perspective and method',
@@ -70,6 +71,28 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
         'Use history as a probability filter, not an analogy machine.',
         'Update quickly on evidence and slowly on identity-level views.',
       ],
+    },
+    writing: {
+      kicker: 'Writing',
+      title: 'Notes from the working shelf',
+      intro:
+        'A small archive of essays, working theses, and field notes. Drafts stay private until they are deliberately marked as published.',
+      featuredLabel: 'Featured note',
+      recentLabel: 'Recent notes',
+      emptyState: 'No published notes yet. Drafts remain hidden until they are ready.',
+    },
+    articleLabels: {
+      readArticle: 'Read note',
+      backToWriting: 'Back to writing',
+      published: 'Published',
+      updated: 'Updated',
+      readingTime: 'Reading time',
+      minute: 'min',
+      translation: 'Read translation',
+      notFoundTitle: 'This note is not published here',
+      notFoundBody:
+        'It may still be a draft, or the URL may not match a published East Meridian note.',
+      returnHome: 'Return home',
     },
     marketSources: {
       kicker: 'Markets',
@@ -145,6 +168,7 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
     languageToggleLabel: '切换站点语言',
     nav: {
       about: '关于',
+      writing: '文章',
       marketSources: '信息源',
       beyondMarkets: '市场之外',
       method: '视角与方法',
@@ -157,7 +181,7 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
         '我关注利率、流动性、大宗商品、政策以及市场如何讲述自己的故事。这个页面是一份公开的小型工作台，记录那些持续塑造我框架的阅读、收听与观看来源。',
       secondary:
         '从央行讲话、金融体系管道到历史、政治与社会经济，真正的优势通常来自语境与比较，而不是抢速度。',
-      cta: '查看信息源',
+      cta: '阅读笔记',
     },
     marketLens: {
       kicker: '视角与方法',
@@ -198,6 +222,27 @@ export const siteContent: Record<Locale, SiteLocaleContent> = {
         '把历史当作概率过滤器，而不是类比机器。',
         '对新证据快速更新，对身份化观点缓慢承诺。',
       ],
+    },
+    writing: {
+      kicker: '文章',
+      title: '工作书架上的笔记',
+      intro:
+        '这里会放一些文章、阶段性判断和工作笔记。草稿会留在本地，只有被明确标记为 published 的内容才会出现在网站上。',
+      featuredLabel: '主推笔记',
+      recentLabel: '最近更新',
+      emptyState: '目前还没有已发布的笔记。草稿会一直隐藏，直到准备好公开。',
+    },
+    articleLabels: {
+      readArticle: '阅读笔记',
+      backToWriting: '返回文章',
+      published: '发布于',
+      updated: '更新于',
+      readingTime: '阅读时间',
+      minute: '分钟',
+      translation: '阅读另一语言版本',
+      notFoundTitle: '这里还没有发布这篇笔记',
+      notFoundBody: '它可能仍然是草稿，或者这个链接并不对应已发布的东望子午文章。',
+      returnHome: '返回首页',
     },
     marketSources: {
       kicker: '市场',

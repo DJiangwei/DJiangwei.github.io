@@ -7,4 +7,5 @@ const rootDir = path.resolve(__dirname, '..');
 const distDir = path.join(rootDir, 'dist');
 
 await copyFile(path.join(distDir, 'app.html'), path.join(distDir, 'index.html'));
+await copyFile(path.join(distDir, 'index.html'), path.join(distDir, '404.html'));
 await rm(path.join(distDir, 'app.html'));
