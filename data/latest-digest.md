@@ -1,8 +1,13 @@
 # East Meridian Source Digest
 
-Generated: 2026-04-22T13:24:57.664Z
+Generated: 2026-04-22T19:11:44.524Z
 
 ## Core
+
+### Federal Reserve Press Releases
+[Federal Reserve Board issues enforcement action with former employee of First Financial Bank](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260422a.htm)
+Published: 2026-04-22T15:00:00.000Z
+Summary: Federal Reserve Board issues enforcement action with former employee of First Financial Bank
 
 ### Federal Reserve Press Releases
 [Federal Reserve Board issues enforcement action with Community Bankshares, Inc.](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260416a.htm)
@@ -23,9 +28,4 @@ Summary: Federal Reserve Board announces approval of application by Burke & Herb
 [Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm)
 Published: 2026-04-09T15:00:00.000Z
 Summary: Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.
-
-### Federal Reserve Press Releases
-[Minutes of the Federal Open Market Committee, March 17–18, 2026](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm)
-Published: 2026-04-08T18:00:00.000Z
-Summary: Minutes of the Federal Open Market Committee, March 17–18, 2026
 

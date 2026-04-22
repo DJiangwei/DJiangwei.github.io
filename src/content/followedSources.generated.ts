@@ -28,10 +28,10 @@ export const followedSources: SourceItem[] = [
       "policy",
       "liquidity"
     ],
-    "latestItemTitle": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
-    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260416a.htm",
-    "latestPublishedAt": "2026-04-16T15:00:00.000Z",
-    "latestItemRawSummary": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
+    "latestItemTitle": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
+    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260422a.htm",
+    "latestPublishedAt": "2026-04-22T15:00:00.000Z",
+    "latestItemRawSummary": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
     "trackedItemCount": 5
   }
 ];
