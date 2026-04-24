@@ -28,10 +28,10 @@ export const followedSources: SourceItem[] = [
       "policy",
       "liquidity"
     ],
-    "latestItemTitle": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
-    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260422a.htm",
-    "latestPublishedAt": "2026-04-22T15:00:00.000Z",
-    "latestItemRawSummary": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
+    "latestItemTitle": "Agencies finalize changes to enhance community bank leverage ratio",
+    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
+    "latestPublishedAt": "2026-04-23T19:30:00.000Z",
+    "latestItemRawSummary": "Agencies finalize changes to enhance community bank leverage ratio",
     "trackedItemCount": 5
   }
 ];

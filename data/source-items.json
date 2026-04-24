@@ -1,6 +1,16 @@
 [
   {
     "sourceId": "federal-reserve-press",
+    "itemId": "664a911dd11e1ebf",
+    "title": "Agencies finalize changes to enhance community bank leverage ratio",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
+    "publishedAt": "2026-04-23T19:30:00.000Z",
+    "rawSummary": "Agencies finalize changes to enhance community bank leverage ratio",
+    "contentHash": "760ee4683f25a34bc1a95f0be28cf7f960f75295da280add900321d2e9133df8",
+    "sourcePriority": "core"
+  },
+  {
+    "sourceId": "federal-reserve-press",
     "itemId": "8a8f04c603ac4c31",
     "title": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260422a.htm",
@@ -37,16 +47,6 @@
     "publishedAt": "2026-04-10T20:15:00.000Z",
     "rawSummary": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.",
     "contentHash": "bc43f0e48a357b5e3275b9ba194a757baa85b9a90a28584e7a534e5ba6ef542d",
-    "sourcePriority": "core"
-  },
-  {
-    "sourceId": "federal-reserve-press",
-    "itemId": "4a7aa757aa434aa5",
-    "title": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260409a.htm",
-    "publishedAt": "2026-04-09T15:00:00.000Z",
-    "rawSummary": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
-    "contentHash": "c540b7c4e04d9ed6d933ef72eebccdc0c3e12a182d1f0ffab16ddd2533c15ce7",
     "sourcePriority": "core"
   }
 ]
