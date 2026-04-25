@@ -28,10 +28,10 @@ export const followedSources: SourceItem[] = [
       "policy",
       "liquidity"
     ],
-    "latestItemTitle": "Agencies finalize changes to enhance community bank leverage ratio",
-    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
-    "latestPublishedAt": "2026-04-23T19:30:00.000Z",
-    "latestItemRawSummary": "Agencies finalize changes to enhance community bank leverage ratio",
+    "latestItemTitle": "Federal Reserve Board announces approval of application by Banco de Credito del Peru",
+    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260424b.htm",
+    "latestPublishedAt": "2026-04-24T20:00:00.000Z",
+    "latestItemRawSummary": "Federal Reserve Board announces approval of application by Banco de Credito del Peru",
     "trackedItemCount": 5
   }
 ];

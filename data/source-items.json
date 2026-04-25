@@ -1,6 +1,26 @@
 [
   {
     "sourceId": "federal-reserve-press",
+    "itemId": "2c497ef9ab0c5f42",
+    "title": "Federal Reserve Board announces approval of application by Banco de Credito del Peru",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260424b.htm",
+    "publishedAt": "2026-04-24T20:00:00.000Z",
+    "rawSummary": "Federal Reserve Board announces approval of application by Banco de Credito del Peru",
+    "contentHash": "eb0c2a0441023953cb718a7a6b4c6dd83f617a407153de19e39b75992c31b232",
+    "sourcePriority": "core"
+  },
+  {
+    "sourceId": "federal-reserve-press",
+    "itemId": "f365ff4812b26212",
+    "title": "Federal Reserve Board announces approval of application by OceanFirst Financial Corp.",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260424a.htm",
+    "publishedAt": "2026-04-24T20:00:00.000Z",
+    "rawSummary": "Federal Reserve Board announces approval of application by OceanFirst Financial Corp.",
+    "contentHash": "eb64a1ce03910b4d9fda7febe8756fdce86924be7f737b2d14583484c6bce0ed",
+    "sourcePriority": "core"
+  },
+  {
+    "sourceId": "federal-reserve-press",
     "itemId": "664a911dd11e1ebf",
     "title": "Agencies finalize changes to enhance community bank leverage ratio",
     "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm",
@@ -27,26 +47,6 @@
     "publishedAt": "2026-04-16T15:00:00.000Z",
     "rawSummary": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
     "contentHash": "dd5b27b509a5e61ec1676dc78d8d2d72da9c1a54231b52ca09ff9185319670a4",
-    "sourcePriority": "core"
-  },
-  {
-    "sourceId": "federal-reserve-press",
-    "itemId": "5472ba5f01467854",
-    "title": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
-    "publishedAt": "2026-04-14T18:00:00.000Z",
-    "rawSummary": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
-    "contentHash": "c2adbecf78befb18fc08c2848d9154d10637a480c43921bd890eedf2351e3a2f",
-    "sourcePriority": "core"
-  },
-  {
-    "sourceId": "federal-reserve-press",
-    "itemId": "96edf18e0fdae60c",
-    "title": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260410a.htm",
-    "publishedAt": "2026-04-10T20:15:00.000Z",
-    "rawSummary": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.",
-    "contentHash": "bc43f0e48a357b5e3275b9ba194a757baa85b9a90a28584e7a534e5ba6ef542d",
     "sourcePriority": "core"
   }
 ]
