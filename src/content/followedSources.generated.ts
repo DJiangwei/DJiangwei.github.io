@@ -28,10 +28,10 @@ export const followedSources: SourceItem[] = [
       "policy",
       "liquidity"
     ],
-    "latestItemTitle": "Federal Reserve Board announces approval of application by Banco de Credito del Peru",
-    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260424b.htm",
-    "latestPublishedAt": "2026-04-24T20:00:00.000Z",
-    "latestItemRawSummary": "Federal Reserve Board announces approval of application by Banco de Credito del Peru",
+    "latestItemTitle": "Federal Reserve issues FOMC statement",
+    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+    "latestPublishedAt": "2026-04-29T18:00:00.000Z",
+    "latestItemRawSummary": "Federal Reserve issues FOMC statement",
     "trackedItemCount": 5
   }
 ];

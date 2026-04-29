@@ -1,8 +1,13 @@
 # East Meridian Source Digest
 
-Generated: 2026-04-29T13:53:29.016Z
+Generated: 2026-04-29T19:23:29.169Z
 
 ## Core
+
+### Federal Reserve Press Releases
+[Federal Reserve issues FOMC statement](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm)
+Published: 2026-04-29T18:00:00.000Z
+Summary: Federal Reserve issues FOMC statement
 
 ### Federal Reserve Press Releases
 [Federal Reserve Board announces approval of application by Banco de Credito del Peru](https://www.federalreserve.gov/newsevents/pressreleases/orders20260424b.htm)
@@ -23,9 +28,4 @@ Summary: Agencies finalize changes to enhance community bank leverage ratio
 [Federal Reserve Board issues enforcement action with former employee of First Financial Bank](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260422a.htm)
 Published: 2026-04-22T15:00:00.000Z
 Summary: Federal Reserve Board issues enforcement action with former employee of First Financial Bank
-
-### Federal Reserve Press Releases
-[Federal Reserve Board issues enforcement action with Community Bankshares, Inc.](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260416a.htm)
-Published: 2026-04-16T15:00:00.000Z
-Summary: Federal Reserve Board issues enforcement action with Community Bankshares, Inc.
 
