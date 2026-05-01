@@ -28,10 +28,10 @@ export const followedSources: SourceItem[] = [
       "policy",
       "liquidity"
     ],
-    "latestItemTitle": "Federal Reserve issues FOMC statement",
-    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
-    "latestPublishedAt": "2026-04-29T18:00:00.000Z",
-    "latestItemRawSummary": "Federal Reserve issues FOMC statement",
+    "latestItemTitle": "Agencies issue host state loan-to-deposit ratios",
+    "latestItemUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm",
+    "latestPublishedAt": "2026-05-01T15:00:00.000Z",
+    "latestItemRawSummary": "Agencies issue host state loan-to-deposit ratios",
     "trackedItemCount": 5
   }
 ];

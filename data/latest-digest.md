@@ -1,8 +1,13 @@
 # East Meridian Source Digest
 
-Generated: 2026-05-01T13:16:20.807Z
+Generated: 2026-05-01T19:09:50.449Z
 
 ## Core
+
+### Federal Reserve Press Releases
+[Agencies issue host state loan-to-deposit ratios](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260501a.htm)
+Published: 2026-05-01T15:00:00.000Z
+Summary: Agencies issue host state loan-to-deposit ratios
 
 ### Federal Reserve Press Releases
 [Federal Reserve issues FOMC statement](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm)
@@ -23,9 +28,4 @@ Summary: Federal Reserve Board announces approval of application by OceanFirst F
 [Agencies finalize changes to enhance community bank leverage ratio](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260423a.htm)
 Published: 2026-04-23T19:30:00.000Z
 Summary: Agencies finalize changes to enhance community bank leverage ratio
-
-### Federal Reserve Press Releases
-[Federal Reserve Board issues enforcement action with former employee of First Financial Bank](https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260422a.htm)
-Published: 2026-04-22T15:00:00.000Z
-Summary: Federal Reserve Board issues enforcement action with former employee of First Financial Bank
 
